@@ -1,0 +1,271 @@
+body{
+  width: 800px;
+  margin: auto;
+  font-family: Arial;
+}
+header{
+	display: flex;
+	align-items: center;
+	background: #444444;
+	color: white;
+	justify-content: space-around;
+	position: fixed;
+	top: 0;
+	width: 800px;
+	font-size: 0.8em;
+	z-index: 3;
+
+}
+header h1{
+	font-size: 1em;
+	font-weight: normal;
+}
+nav ul{
+	list-style-type: none;
+	display: flex;
+}
+header li a{
+	color: white;
+  	text-decoration: none;
+  	padding: 15px;
+}
+header a:hover{
+	color: #444444;
+	background: #d8d8d8;
+}
+h3{
+	font-weight: normal;
+	font-size: 1.5em;
+}
+.main_wrapper{
+	padding-top: 3%;
+}
+.title_main{
+	text-align: center;
+	background: url(http://image.noelshack.com/fichiers/2018/50/3/1544640803-mount-doom-volcano-the-lord-of.jpg) center;
+	padding: 95px;
+	color: white;
+	border-radius: 10px;
+}
+.fellows{
+	display: flex;
+	align-items: center;
+}
+.fellows h3{
+	padding-right: 5px;
+}
+.tab{
+	display: flex;
+	justify-content: center;
+}
+.tab h2 a{
+	padding: 15px;
+	text-decoration: none;
+	color: #d8d8d8;
+	font-weight: normal;
+}
+.tab a:hover{
+	background: #727272;
+	color: white;
+	border-radius: 10px;
+}
+.target ul{
+	display: flex;
+	flex-direction: row;
+	list-style-type: none;
+	padding-left: 0;
+	text-align: center;
+}
+.target{
+	margin: 0;
+	line-height: 9px;
+}
+.the_wizard, .hobbit, .yummy_dwarf{
+	flex: 1;
+	border: solid 1px #d8d8d8;
+	padding-bottom: 20px;
+}
+.target img{
+	border-radius: 10px;
+	opacity: 0.7;
+}
+.the_wizard img:hover, .hobbit img:hover, .yummy_dwarf img:hover{
+	position: relative;
+    background: url(http://image.noelshack.com/fichiers/2018/50/3/1544646660-webp-net-resizeimage.png) no-repeat;
+	transition: .3s ease;
+	z-index: 2;
+	opacity: 1;
+}
+.reward{
+	position: relative;
+	background: #a5a5a5;
+	border-radius: 8px;
+	color: white;
+	padding: 8px;
+	left: 0px;
+	top: 30px;
+	line-height: 5.5px;
+	z-index: 1;
+}
+.dead{
+	position: relative;
+	top: 140px;
+	color: black;
+	font-weight: bold;
+	font-size: 2em;
+}
+li p{
+	margin: 0px;
+}
+.get_reward img{
+	float: right;
+	position: relative;
+	bottom: 40px;
+	border-radius: 5px;
+}
+.get_reward p{
+	overflow: hidden;
+	width: 600px;
+	height: 63px;
+}
+.contact_button, .contact_button a{
+	display: flex;
+	justify-content: center;
+	color: black;
+	text-decoration: none;
+}
+.contact_button a{
+	border: solid 1px #d8d8d8;
+	padding: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 5px;
+}
+.hunter1, .hunter2{
+	flex: 1;
+}
+.hunter1 img, .hunter2 img{
+	float: left;
+	border-radius: 4px;
+}
+.best_hunters{
+	display: flex;
+	padding: 15px;
+}
+.best_hunters p{
+	position: relative;
+	left: 10px;
+	bottom: 10px;
+}
+.table_ring{
+	border: solid 1px #d8d8d8;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding-bottom: 15px;
+	margin-bottom: 10px;
+}
+h4{
+	padding-left: 25px;
+	background: #d8d8d8;
+	line-height: 36px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	margin: 0;
+}
+.table_ring th, .table_ring td, .table_ring table{
+	border: solid 1px black;
+	border-collapse: collapse;
+	margin: auto;
+	padding: 5px;
+	width: 700px;
+	text-align: center;
+}
+.table_ring th{
+	background: #969696;
+	color: white;
+	font-weight: normal;
+}
+.table_ring .body_grey, .table_ring tfoot{
+	background: #d8d8d8;
+}
+.table_ring p{
+	padding-left: 50px;
+}
+.gollum{
+	border: solid 1px #d8d8d8;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+	margin-bottom: 10px;
+}
+.gollum img{
+	float: right;
+	border-radius: 50%;
+}
+.sign p{
+	text-align: right;
+	color: #d8d8d8;
+}
+.gollum p{
+	width: 515px;
+}
+.army_button{
+	margin-bottom: 25px;
+}
+.army img{
+	float: left;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+.army p{
+	overflow: hidden;
+	width: 600px;
+	height: 63px;
+}
+.army_button, .army_button a{
+	display: flex;
+	justify-content: center;
+	color: black;
+	text-decoration: none;
+}
+.army_button a{
+	border: solid 1px #d8d8d8;
+	padding: 15px;
+	padding-left: 25px;
+	padding-right: 25px;
+	border-radius: 5px;
+}
+form input, form textarea, form select{
+	width: 600px;
+	border: solid 1px black;
+	padding: 3px;
+}
+form p{
+	text-align: center;
+}
+form textarea{
+	height: 100px;
+}
+form select{
+	border: solid 1px #d8d8d8;
+}
+footer{
+	display: flex;
+	width: 100%;
+	background: #4c4c4c;
+	align-items: center;
+}
+footer ul{
+	list-style-type: none;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+	font-weight: normal;
+}
+.foot_first{
+	margin-right: 30%;
+}
